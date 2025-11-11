@@ -31,7 +31,9 @@ namespace WindowsFormsApp1
 
         private void tsmiGraus_Click(object sender, EventArgs e)
         {
-
+            frmGraus graus = new frmGraus();
+            Hide();
+            graus.Show();
         }
     }
 }
