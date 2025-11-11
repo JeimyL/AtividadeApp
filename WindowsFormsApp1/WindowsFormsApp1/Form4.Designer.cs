@@ -28,32 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtGraus = new System.Windows.Forms.TextBox();
-            this.lblGraus = new System.Windows.Forms.Label();
+            this.lblGrausf = new System.Windows.Forms.Label();
             this.btnVoltargraus = new System.Windows.Forms.Button();
             this.btnLimpargraus = new System.Windows.Forms.Button();
             this.btnCalfgraus = new System.Windows.Forms.Button();
             this.btnCalfwgraus = new System.Windows.Forms.Button();
             this.btnCalwgraus = new System.Windows.Forms.Button();
+            this.lblGrausc = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // txtGraus
+            // lblGrausf
             // 
-            this.txtGraus.Location = new System.Drawing.Point(186, 41);
-            this.txtGraus.Multiline = true;
-            this.txtGraus.Name = "txtGraus";
-            this.txtGraus.ReadOnly = true;
-            this.txtGraus.Size = new System.Drawing.Size(100, 169);
-            this.txtGraus.TabIndex = 12;
-            // 
-            // lblGraus
-            // 
-            this.lblGraus.AutoSize = true;
-            this.lblGraus.Location = new System.Drawing.Point(71, 41);
-            this.lblGraus.Name = "lblGraus";
-            this.lblGraus.Size = new System.Drawing.Size(50, 13);
-            this.lblGraus.TabIndex = 9;
-            this.lblGraus.Text = "F para C:";
+            this.lblGrausf.AutoSize = true;
+            this.lblGrausf.Location = new System.Drawing.Point(71, 41);
+            this.lblGrausf.Name = "lblGrausf";
+            this.lblGrausf.Size = new System.Drawing.Size(19, 13);
+            this.lblGrausf.TabIndex = 9;
+            this.lblGrausf.Text = "F :";
             // 
             // btnVoltargraus
             // 
@@ -100,18 +93,45 @@
             this.btnCalwgraus.Text = "cal Wille";
             this.btnCalwgraus.UseVisualStyleBackColor = true;
             // 
+            // lblGrausc
+            // 
+            this.lblGrausc.AutoSize = true;
+            this.lblGrausc.Location = new System.Drawing.Point(248, 48);
+            this.lblGrausc.Name = "lblGrausc";
+            this.lblGrausc.Size = new System.Drawing.Size(17, 13);
+            this.lblGrausc.TabIndex = 41;
+            this.lblGrausc.Text = "C:";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(118, 41);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(42, 181);
+            this.textBox1.TabIndex = 42;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(305, 45);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(43, 177);
+            this.textBox2.TabIndex = 43;
+            // 
             // frmGraus
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.lblGrausc);
             this.Controls.Add(this.btnVoltargraus);
             this.Controls.Add(this.btnLimpargraus);
             this.Controls.Add(this.btnCalfgraus);
             this.Controls.Add(this.btnCalfwgraus);
             this.Controls.Add(this.btnCalwgraus);
-            this.Controls.Add(this.txtGraus);
-            this.Controls.Add(this.lblGraus);
+            this.Controls.Add(this.lblGrausf);
             this.Name = "frmGraus";
             this.Text = "Graus";
             this.ResumeLayout(false);
@@ -120,12 +140,14 @@
         }
 
         #endregion
-        private System.Windows.Forms.TextBox txtGraus;
-        private System.Windows.Forms.Label lblGraus;
+        private System.Windows.Forms.Label lblGrausf;
         private System.Windows.Forms.Button btnVoltargraus;
         private System.Windows.Forms.Button btnLimpargraus;
         private System.Windows.Forms.Button btnCalfgraus;
         private System.Windows.Forms.Button btnCalfwgraus;
         private System.Windows.Forms.Button btnCalwgraus;
+        private System.Windows.Forms.Label lblGrausc;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }

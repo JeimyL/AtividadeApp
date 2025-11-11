@@ -47,6 +47,7 @@
             this.btnVoltartab.TabIndex = 35;
             this.btnVoltartab.Text = "voltar";
             this.btnVoltartab.UseVisualStyleBackColor = true;
+            this.btnVoltartab.Click += new System.EventHandler(this.btnVoltartab_Click);
             // 
             // btnLimpartab
             // 
@@ -56,6 +57,7 @@
             this.btnLimpartab.TabIndex = 34;
             this.btnLimpartab.Text = "limpar";
             this.btnLimpartab.UseVisualStyleBackColor = true;
+            this.btnLimpartab.Click += new System.EventHandler(this.btnLimpartab_Click);
             // 
             // btnCalftab
             // 
@@ -65,6 +67,7 @@
             this.btnCalftab.TabIndex = 33;
             this.btnCalftab.Text = "calfor";
             this.btnCalftab.UseVisualStyleBackColor = true;
+            this.btnCalftab.Click += new System.EventHandler(this.btnCalftab_Click);
             // 
             // btnCalfwtab
             // 
@@ -74,6 +77,7 @@
             this.btnCalfwtab.TabIndex = 32;
             this.btnCalfwtab.Text = "cal fwille";
             this.btnCalfwtab.UseVisualStyleBackColor = true;
+            this.btnCalfwtab.Click += new System.EventHandler(this.btnCalfwtab_Click);
             // 
             // btnCalwtab
             // 
@@ -83,10 +87,11 @@
             this.btnCalwtab.TabIndex = 31;
             this.btnCalwtab.Text = "cal Wille";
             this.btnCalwtab.UseVisualStyleBackColor = true;
+            this.btnCalwtab.Click += new System.EventHandler(this.btnCalwtab_Click);
             // 
             // txtNum
             // 
-            this.txtNum.Location = new System.Drawing.Point(122, 35);
+            this.txtNum.Location = new System.Drawing.Point(122, 42);
             this.txtNum.Name = "txtNum";
             this.txtNum.Size = new System.Drawing.Size(100, 20);
             this.txtNum.TabIndex = 28;

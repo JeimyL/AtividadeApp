@@ -16,5 +16,22 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void tsmiTab_Click(object sender, EventArgs e)
+        {
+            frmTab tab = new frmTab();
+            Hide();
+            tab.Show();
+        }
+
+        private void tsmiSair_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void tsmiGraus_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -63,18 +63,21 @@
             this.tsmiSair.Name = "tsmiSair";
             this.tsmiSair.Size = new System.Drawing.Size(38, 20);
             this.tsmiSair.Text = "Sair";
+            this.tsmiSair.Click += new System.EventHandler(this.tsmiSair_Click);
             // 
             // tsmiTab
             // 
             this.tsmiTab.Name = "tsmiTab";
             this.tsmiTab.Size = new System.Drawing.Size(180, 22);
             this.tsmiTab.Text = "Tabuada";
+            this.tsmiTab.Click += new System.EventHandler(this.tsmiTab_Click);
             // 
             // tsmiGraus
             // 
             this.tsmiGraus.Name = "tsmiGraus";
             this.tsmiGraus.Size = new System.Drawing.Size(180, 22);
             this.tsmiGraus.Text = "Graus";
+            this.tsmiGraus.Click += new System.EventHandler(this.tsmiGraus_Click);
             // 
             // tsmiArea
             // 
