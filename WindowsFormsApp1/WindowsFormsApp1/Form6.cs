@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class frmMenu : Form
+    public partial class frmTab : Form
     {
-        public frmMenu()
+        public frmTab()
         {
             InitializeComponent();
+        }
+
+        private void frmTab_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
