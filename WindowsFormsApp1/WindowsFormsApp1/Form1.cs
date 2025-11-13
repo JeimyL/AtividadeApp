@@ -35,5 +35,12 @@ namespace WindowsFormsApp1
             Hide();
             graus.Show();
         }
+
+        private void tsmiArea_Click(object sender, EventArgs e)
+        {
+            frmArea area = new frmArea();
+            Hide();
+            area.Show();
+        }
     }
 }

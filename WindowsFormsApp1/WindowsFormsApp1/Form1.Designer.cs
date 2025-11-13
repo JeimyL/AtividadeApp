@@ -30,10 +30,10 @@
         {
             this.msMenu = new System.Windows.Forms.MenuStrip();
             this.tsmiExe = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiSair = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiTab = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiGraus = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiArea = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiSair = new System.Windows.Forms.ToolStripMenuItem();
             this.msMenu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -58,13 +58,6 @@
             this.tsmiExe.Size = new System.Drawing.Size(71, 20);
             this.tsmiExe.Text = "Exercicios";
             // 
-            // tsmiSair
-            // 
-            this.tsmiSair.Name = "tsmiSair";
-            this.tsmiSair.Size = new System.Drawing.Size(38, 20);
-            this.tsmiSair.Text = "Sair";
-            this.tsmiSair.Click += new System.EventHandler(this.tsmiSair_Click);
-            // 
             // tsmiTab
             // 
             this.tsmiTab.Name = "tsmiTab";
@@ -84,6 +77,14 @@
             this.tsmiArea.Name = "tsmiArea";
             this.tsmiArea.Size = new System.Drawing.Size(180, 22);
             this.tsmiArea.Text = "Área";
+            this.tsmiArea.Click += new System.EventHandler(this.tsmiArea_Click);
+            // 
+            // tsmiSair
+            // 
+            this.tsmiSair.Name = "tsmiSair";
+            this.tsmiSair.Size = new System.Drawing.Size(38, 20);
+            this.tsmiSair.Text = "Sair";
+            this.tsmiSair.Click += new System.EventHandler(this.tsmiSair_Click);
             // 
             // frmMenu
             // 
